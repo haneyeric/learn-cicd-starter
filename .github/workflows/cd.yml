@@ -21,7 +21,9 @@ jobs:
       - name: Build prod script 
         run: scripts/buildprod.sh
   job_id:
-    # Add "id-token" with the intended permissions.
+    name: GCP Deploy
+    runs-on: ubuntu-latest
+
     permissions:
       contents: 'read'
       id-token: 'write'
