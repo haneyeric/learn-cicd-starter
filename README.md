@@ -26,3 +26,4 @@ You do *not* need to set up a database or any interactivity on the webpage yet. 
 Eric's version of Boot.dev's Notely app.
 
 Now there is formatting in the ci workflow!
+Now there is security in the ci workflow!
